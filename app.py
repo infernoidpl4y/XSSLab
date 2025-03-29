@@ -43,11 +43,11 @@ def index():
         <head>
             <title>XSS Lab - Foro de Seguridad</title>
             <style>
-                body { 
-                    font-family: Arial, sans-serif; 
-                    max-width: 1000px; 
-                    margin: 0 auto; 
-                    padding: 20px; 
+                body {
+                    font-family: Arial, sans-serif;
+                    max-width: 1000px;
+                    margin: 0 auto;
+                    padding: 20px;
                     line-height: 1.6;
                 }
                 .menu {
@@ -74,20 +74,20 @@ def index():
                     padding: 15px;
                     margin-bottom: 20px;
                 }
-                form { 
-                    margin-bottom: 20px; 
+                form {
+                    margin-bottom: 20px;
                     padding: 20px;
                     background: #f5f5f5;
                     border-radius: 5px;
                 }
-                input, textarea { 
-                    width: 100%; 
-                    margin-bottom: 10px; 
-                    padding: 8px; 
+                input, textarea {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    padding: 8px;
                     border: 1px solid #ddd;
                     border-radius: 4px;
                 }
-                button { 
+                button {
                     background-color: #4CAF50;
                     color: white;
                     padding: 10px 15px;
@@ -95,10 +95,10 @@ def index():
                     border-radius: 4px;
                     cursor: pointer;
                 }
-                .post { 
-                    margin-bottom: 20px; 
-                    padding: 15px; 
-                    border: 1px solid #ddd; 
+                .post {
+                    margin-bottom: 20px;
+                    padding: 15px;
+                    border: 1px solid #ddd;
                     border-radius: 5px;
                     background: white;
                 }
@@ -136,10 +136,10 @@ def index():
         <body>
             <!-- Menú superior -->
             <div class="menu">
-                <a href="#">Inicio</a>
+                <a href="/">Inicio</a>
                 <a href="#" onclick="document.getElementById('infoModal').style.display='block'">Información</a>
-                <a href="https://github.com/tu-usu" target="_blank">GitHub</a>
-                <a href="#">Foro</a>
+                <a href="https://github.com/infernoidpl4y/XSSLab/" target="_blank">GitHub</a>
+                <a href="https://cybersecurityproject.freeforums.net/">Foro</a>
             </div>
 
             <!-- Modal de Información -->
@@ -147,9 +147,9 @@ def index():
                 <div class="modal-content">
                     <span class="close" onclick="document.getElementById('infoModal').style.display='none'">&times;</span>
                     <h2>Información del Creador</h2>
-                    <p><strong>Nombre:</strong> [Tu Nombre]</p>
-                    <p><strong>Contacto:</strong> tu@email.com</p>
-                    <p><strong>Propósito:</strong> Esta es una aplicación de demostración para aprender sobre vulnerabilidades XSS.</p>
+                    <p><strong>Nombre:</strong> InfernoidPl4y</p>
+                    <p><strong>Contacto:</strong> infernoidpl4y@gmail.com</p>
+                    <p><strong>Propósito:</strong> Esta es una aplicación para aprender y practicar en comunidad la vulnerabilidad XSS. Quizas todo no sea destruir.</p>
                     <p><strong>Advertencia:</strong> No ingresar información sensible. Los datos se reiniciarán cada 48 horas.</p>
                 </div>
             </div>
@@ -186,7 +186,7 @@ def index():
                 document.querySelector('.close').onclick = function() {
                     document.getElementById('infoModal').style.display = 'none';
                 }
-                
+
                 window.onclick = function(event) {
                     if (event.target == document.getElementById('infoModal')) {
                         document.getElementById('infoModal').style.display = 'none';
