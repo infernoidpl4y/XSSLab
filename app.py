@@ -148,6 +148,7 @@ def index():
                     <span class="close" onclick="document.getElementById('infoModal').style.display='none'">&times;</span>
                     <h2>Información del Creador</h2>
                     <p><strong>Nombre:</strong> InfernoidPl4y</p>
+                    <p><strong>Portfolio:</strong><a href="https://infernoidpl4y.github.io/myportfolio/">infernoidpl4y.github.io/myportfolio/</a></p>
                     <p><strong>Contacto:</strong> infernoidpl4y@gmail.com</p>
                     <p><strong>Propósito:</strong> Esta es una aplicación para aprender y practicar en comunidad la vulnerabilidad XSS. Quizas todo no sea destruir.</p>
                     <p><strong>Advertencia:</strong> No ingresar información sensible. Los datos se reiniciarán cada 48 horas.</p>
