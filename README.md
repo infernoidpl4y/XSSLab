@@ -1,4 +1,4 @@
-[# 🛡️ XSS Lab Interactive](https://xsslabinteractive.pythonanywhere.com/)  
+# [🛡️ XSS Lab Interactive](https://xsslabinteractive.pythonanywhere.com/)  
 
 *Plataforma colaborativa para aprender y practicar vulnerabilidades XSS de forma segura y controlada*
 
