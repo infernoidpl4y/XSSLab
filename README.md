@@ -1,6 +1,3 @@
-Aquí tienes un **README.md** profesional, visualmente atractivo y educativo para tu repositorio de GitHub del XSS Lab:
-
-```markdown
 # 🛡️ XSS Lab Interactive  
 *Plataforma colaborativa para aprender y practicar vulnerabilidades XSS de forma segura y controlada*
 
