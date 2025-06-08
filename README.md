@@ -128,11 +128,6 @@ Por favor lee el [CONTRIBUTING.md](CONTRIBUTING.md) para más detalles.
 
 ---
 
-## 📄 Licencia
-MIT License - ver [LICENSE](LICENSE) para detalles
-
----
-
 ## 📬 Contacto
 InfernoidPl4y - infernoidpl4y@gmail.com  
 Portfolio: [infernoidpl4y.netlify.app](https://infernoidpl4y.netlify.app)
