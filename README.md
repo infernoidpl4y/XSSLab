@@ -1,5 +1,5 @@
 # [🛡️ XSS Lab Interactive]
-[![Lab here-->](https://img.shields.io/badge/XSS%20Lab%20Interactive-Click%20here-blue?style=for-the-badge&logo=python&color=red)](https://xsslabinteractive.pythonanywhere.com/)
+[![XSS Lab Interactive](https://img.shields.io/badge/XSS%20Lab%20Interactive-Click%20here-blue?style=for-the-badge&logo=python&color=red)](https://xsslabinteractive.pythonanywhere.com/)
 
 *Plataforma colaborativa para aprender y practicar vulnerabilidades XSS de forma segura y controlada*
 
