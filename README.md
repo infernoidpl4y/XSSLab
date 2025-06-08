@@ -1,4 +1,4 @@
-<h1 style="color: green;"><a href="https://xsslabinteractive.pythonanywhere.com/"  style="text-decoration: none; color: inherit;">🛡️ XSS Lab Interactive</a></h1>
+[![🛡️ XSS Lab Interactive](https://img.shields.io/badge/XSS%20Lab%20Interactive-Click%20here-blue?style=for-the-badge&logo=javascript&color=green)](https://xsslabinteractive.pythonanywhere.com/)
 
 *Plataforma colaborativa para aprender y practicar vulnerabilidades XSS de forma segura y controlada*
 
